@@ -44,6 +44,6 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: imgforchensheng/deploy-pages@v3
         with:
           timeout: 3600000
